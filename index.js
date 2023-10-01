@@ -4,7 +4,7 @@ const version = process.env.APP_VERSION || 1
 const env = process.env.APP_ENV || "test"
 const server = http.createServer((req, res) => {
   res.statusCode = 200;
-  const msg = `Hello Node!\n ${version} - ${env} `
+  const msg = `Hello Node1!\n ${version} - ${env} `
   res.end(msg);
 });
 
